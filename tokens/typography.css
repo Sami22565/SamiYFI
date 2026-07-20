@@ -1,0 +1,20 @@
+:root {
+  --font-display: 'Anton', 'Arial Narrow', sans-serif;   /* bold condensed headlines */
+  --font-body: 'Manrope', 'Segoe UI', sans-serif;         /* body + UI text */
+
+  /* Display scale — condensed, high-impact, uppercase by convention */
+  --text-display-xl: 800 clamp(48px, 7vw, 96px)/0.95 var(--font-display);
+  --text-display-lg: 800 clamp(36px, 5vw, 64px)/1.0 var(--font-display);
+  --text-display-md: 800 clamp(28px, 3.5vw, 40px)/1.05 var(--font-display);
+
+  /* Body scale */
+  --text-body-lg: 500 20px/1.5 var(--font-body);
+  --text-body-md: 500 16px/1.6 var(--font-body);
+  --text-body-sm: 500 14px/1.5 var(--font-body);
+  --text-label: 700 13px/1.2 var(--font-body);   /* buttons, tags, eyebrows */
+  --text-caption: 600 12px/1.4 var(--font-body);
+
+  --tracking-tight: -0.01em;
+  --tracking-wide: 0.04em;
+  --tracking-wider: 0.12em;   /* eyebrows / labels, uppercase */
+}
